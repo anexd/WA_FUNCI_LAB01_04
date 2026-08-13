@@ -46,7 +46,7 @@ jobs:
           context: .
           push: true
           dockerfile: ./Dockerfile
-          tags: moisesgc/webacademy:latest
+          tags: rayanesilva2016/webacademy:latest
 
   deploy:
     needs: lint
